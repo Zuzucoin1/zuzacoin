@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom right, black, #111);
+  color: white;
+  scroll-behavior: smooth;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  z-index: 1000;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: pink;
+}
+.hero {
+  padding: 150px 20px 80px;
+  text-align: center;
+}
+.popup {
+  background: #222;
+  border: 2px solid pink;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: none;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background: pink;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+}
